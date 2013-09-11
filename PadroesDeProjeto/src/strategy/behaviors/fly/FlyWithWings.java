@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package strategy;
+package strategy.behaviors.fly;
 
 /**
  *
@@ -11,6 +11,6 @@ package strategy;
 public class FlyWithWings implements FlyBehavior{
     @Override
     public void fly() {
-        System.out.println("flying");
+        System.out.println("flying with wings");
     }
 }
